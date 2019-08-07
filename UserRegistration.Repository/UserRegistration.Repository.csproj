@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UserRegistration.Data\UserRegistration.Data.csproj" />
+    <ProjectReference Include="..\UserRegistration.Domain\UserRegistration.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

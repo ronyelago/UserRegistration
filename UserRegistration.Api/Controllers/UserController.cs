@@ -52,6 +52,11 @@ namespace UserRegistration.Api.Controllers
         {
             var users = userRepository.GetMany(x => x.Name.ToLower().Contains(substringName.ToLower()));
 
+            if (users is null)
+            {
+                return Ok(new { message = "Nenhum usuário encontrado" });
+            }
+
             try
             {
                 return Ok(mapper.Map<List<UserViewModel>>(users));

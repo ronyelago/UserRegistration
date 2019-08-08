@@ -1,4 +1,4 @@
-﻿using UserRegistration.Domain.Entities;
+﻿using UserRegistration.Data.Entities;
 
 namespace UserRegistration.Repository
 {

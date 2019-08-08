@@ -1,9 +1,0 @@
-C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Domain\bin\Debug\netcoreapp2.2\UserRegistration.Domain.deps.json
-C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Domain\bin\Debug\netcoreapp2.2\UserRegistration.Domain.dll
-C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Domain\bin\Debug\netcoreapp2.2\UserRegistration.Domain.pdb
-C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Domain\obj\Debug\netcoreapp2.2\UserRegistration.Domain.csprojAssemblyReference.cache
-C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Domain\obj\Debug\netcoreapp2.2\UserRegistration.Domain.csproj.CoreCompileInputs.cache
-C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Domain\obj\Debug\netcoreapp2.2\UserRegistration.Domain.AssemblyInfoInputs.cache
-C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Domain\obj\Debug\netcoreapp2.2\UserRegistration.Domain.AssemblyInfo.cs
-C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Domain\obj\Debug\netcoreapp2.2\UserRegistration.Domain.dll
-C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Domain\obj\Debug\netcoreapp2.2\UserRegistration.Domain.pdb

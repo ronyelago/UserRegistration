@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UserRegistration.Domain.Entities
+namespace UserRegistration.Data.Entities
 {
     public class User
     {

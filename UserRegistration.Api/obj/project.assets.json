@@ -4754,32 +4754,20 @@
           "Microsoft.EntityFrameworkCore": "2.2.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6",
           "Microsoft.Extensions.Configuration.FileExtensions": "2.2.0",
-          "Microsoft.Extensions.Configuration.Json": "2.2.0",
-          "UserRegistration.Domain": "1.0.0"
+          "Microsoft.Extensions.Configuration.Json": "2.2.0"
         },
         "compile": {
           "bin/placeholder/UserRegistration.Data.dll": {}
         },
         "runtime": {
           "bin/placeholder/UserRegistration.Data.dll": {}
-        }
-      },
-      "UserRegistration.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.2",
-        "compile": {
-          "bin/placeholder/UserRegistration.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/UserRegistration.Domain.dll": {}
         }
       },
       "UserRegistration.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
-          "UserRegistration.Data": "1.0.0",
-          "UserRegistration.Domain": "1.0.0"
+          "UserRegistration.Data": "1.0.0"
         },
         "compile": {
           "bin/placeholder/UserRegistration.Repository.dll": {}
@@ -13034,11 +13022,6 @@
       "path": "../UserRegistration.Data/UserRegistration.Data.csproj",
       "msbuildProject": "../UserRegistration.Data/UserRegistration.Data.csproj"
     },
-    "UserRegistration.Domain/1.0.0": {
-      "type": "project",
-      "path": "../UserRegistration.Domain/UserRegistration.Domain.csproj",
-      "msbuildProject": "../UserRegistration.Domain/UserRegistration.Domain.csproj"
-    },
     "UserRegistration.Repository/1.0.0": {
       "type": "project",
       "path": "../UserRegistration.Repository/UserRegistration.Repository.csproj",
@@ -13052,7 +13035,6 @@
       "Microsoft.NETCore.App >= 2.2.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3",
       "UserRegistration.Data >= 1.0.0",
-      "UserRegistration.Domain >= 1.0.0",
       "UserRegistration.Repository >= 1.0.0"
     ]
   },
@@ -13091,9 +13073,6 @@
           "projectReferences": {
             "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Data\\UserRegistration.Data.csproj": {
               "projectPath": "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Data\\UserRegistration.Data.csproj"
-            },
-            "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Domain\\UserRegistration.Domain.csproj": {
-              "projectPath": "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Domain\\UserRegistration.Domain.csproj"
             },
             "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Repository\\UserRegistration.Repository.csproj": {
               "projectPath": "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Repository\\UserRegistration.Repository.csproj"

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using UserRegistration.Api.ViewModels;
-using UserRegistration.Domain.Entities;
+using UserRegistration.Data.Entities;
 
 namespace UserRegistration.Api.MappingProfile
 {

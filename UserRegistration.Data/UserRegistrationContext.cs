@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using System;
 using UserRegistration.Data.Maps;
-using UserRegistration.Domain.Entities;
+using UserRegistration.Data.Entities;
 
 namespace UserRegistration.Data
 {

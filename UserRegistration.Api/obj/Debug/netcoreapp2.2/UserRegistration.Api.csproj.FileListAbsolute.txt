@@ -17,5 +17,3 @@ C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Api\obj\Debug\net
 C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Api\obj\Debug\netcoreapp2.2\UserRegistration.Api.pdb
 C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Api\bin\Debug\netcoreapp2.2\UserRegistration.Repository.dll
 C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Api\bin\Debug\netcoreapp2.2\UserRegistration.Repository.pdb
-C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Api\bin\Debug\netcoreapp2.2\UserRegistration.Domain.dll
-C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Api\bin\Debug\netcoreapp2.2\UserRegistration.Domain.pdb

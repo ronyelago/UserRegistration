@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "93a7965dce9e92cb7ae7ad4d1262649d92889ef6"
+    "signature": "7b99579f72eba01a4d238e420b192a1954d356e8"
   },
   "compilationOptions": {
     "defines": [
@@ -29,7 +29,6 @@
           "Microsoft.NETCore.App": "2.2.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.3",
           "UserRegistration.Data": "1.0.0",
-          "UserRegistration.Domain": "1.0.0",
           "UserRegistration.Repository": "1.0.0"
         },
         "runtime": {
@@ -67,17 +66,6 @@
         },
         "compile": {
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
-        }
-      },
-      "Flunt/1.0.3": {
-        "runtime": {
-          "lib/netstandard2.0/Flunt.dll": {
-            "assemblyVersion": "1.0.3.0",
-            "fileVersion": "1.0.3.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/Flunt.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
@@ -588,31 +576,18 @@
           "Microsoft.EntityFrameworkCore": "2.2.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6",
           "Microsoft.Extensions.Configuration.FileExtensions": "2.2.0",
-          "Microsoft.Extensions.Configuration.Json": "2.2.0",
-          "UserRegistration.Domain": "1.0.0"
+          "Microsoft.Extensions.Configuration.Json": "2.2.0"
         },
         "runtime": {
           "UserRegistration.Data.dll": {}
         },
         "compile": {
           "UserRegistration.Data.dll": {}
-        }
-      },
-      "UserRegistration.Domain/1.0.0": {
-        "dependencies": {
-          "Flunt": "1.0.3"
-        },
-        "runtime": {
-          "UserRegistration.Domain.dll": {}
-        },
-        "compile": {
-          "UserRegistration.Domain.dll": {}
         }
       },
       "UserRegistration.Repository/1.0.0": {
         "dependencies": {
-          "UserRegistration.Data": "1.0.0",
-          "UserRegistration.Domain": "1.0.0"
+          "UserRegistration.Data": "1.0.0"
         },
         "runtime": {
           "UserRegistration.Repository.dll": {}
@@ -3714,13 +3689,6 @@
       "path": "automapper.extensions.microsoft.dependencyinjection/6.1.1",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512"
     },
-    "Flunt/1.0.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-7/wzY8uowlaM5Xydj428PdF1yp1bfuSEm5ONqnx4xiEbPv/zfGLNQoJQVNzU7cqmt3MmvJEGrCCEg7T1NHFdmA==",
-      "path": "flunt/1.0.3",
-      "hashPath": "flunt.1.0.3.nupkg.sha512"
-    },
     "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
       "type": "package",
       "serviceable": true,
@@ -3953,11 +3921,6 @@
       "hashPath": "system.text.encoding.codepages.4.5.0.nupkg.sha512"
     },
     "UserRegistration.Data/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "UserRegistration.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

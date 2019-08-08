@@ -976,16 +976,6 @@
         "compile": {
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
-      },
-      "UserRegistration.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.2",
-        "compile": {
-          "bin/placeholder/UserRegistration.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/UserRegistration.Domain.dll": {}
-        }
       }
     }
   },
@@ -3633,11 +3623,6 @@
         "system.threading.tasks.4.0.11.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
-    },
-    "UserRegistration.Domain/1.0.0": {
-      "type": "project",
-      "path": "../UserRegistration.Domain/UserRegistration.Domain.csproj",
-      "msbuildProject": "../UserRegistration.Domain/UserRegistration.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3646,8 +3631,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.2.6",
       "Microsoft.Extensions.Configuration.FileExtensions >= 2.2.0",
       "Microsoft.Extensions.Configuration.Json >= 2.2.0",
-      "Microsoft.NETCore.App >= 2.2.0",
-      "UserRegistration.Domain >= 1.0.0"
+      "Microsoft.NETCore.App >= 2.2.0"
     ]
   },
   "packageFolders": {
@@ -3682,11 +3666,7 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {
-            "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Domain\\UserRegistration.Domain.csproj": {
-              "projectPath": "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Domain\\UserRegistration.Domain.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

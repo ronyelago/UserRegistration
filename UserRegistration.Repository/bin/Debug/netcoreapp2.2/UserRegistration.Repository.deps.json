@@ -1,26 +1,17 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "79f9e51cf9bb99145440022657b485e89fe937f9"
+    "signature": "74ea6025d1172b93615f7c48c8bfa07adbd7f33a"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.2": {
       "UserRegistration.Repository/1.0.0": {
         "dependencies": {
-          "UserRegistration.Data": "1.0.0",
-          "UserRegistration.Domain": "1.0.0"
+          "UserRegistration.Data": "1.0.0"
         },
         "runtime": {
           "UserRegistration.Repository.dll": {}
-        }
-      },
-      "Flunt/1.0.3": {
-        "runtime": {
-          "lib/netstandard2.0/Flunt.dll": {
-            "assemblyVersion": "1.0.3.0",
-            "fileVersion": "1.0.3.0"
-          }
         }
       },
       "Microsoft.EntityFrameworkCore/2.2.6": {
@@ -578,19 +569,10 @@
           "Microsoft.EntityFrameworkCore": "2.2.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6",
           "Microsoft.Extensions.Configuration.FileExtensions": "2.2.0",
-          "Microsoft.Extensions.Configuration.Json": "2.2.0",
-          "UserRegistration.Domain": "1.0.0"
+          "Microsoft.Extensions.Configuration.Json": "2.2.0"
         },
         "runtime": {
           "UserRegistration.Data.dll": {}
-        }
-      },
-      "UserRegistration.Domain/1.0.0": {
-        "dependencies": {
-          "Flunt": "1.0.3"
-        },
-        "runtime": {
-          "UserRegistration.Domain.dll": {}
         }
       }
     }
@@ -600,13 +582,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "Flunt/1.0.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-7/wzY8uowlaM5Xydj428PdF1yp1bfuSEm5ONqnx4xiEbPv/zfGLNQoJQVNzU7cqmt3MmvJEGrCCEg7T1NHFdmA==",
-      "path": "flunt/1.0.3",
-      "hashPath": "flunt.1.0.3.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/2.2.6": {
       "type": "package",
@@ -1022,11 +997,6 @@
       "hashPath": "system.threading.tasks.4.0.11.nupkg.sha512"
     },
     "UserRegistration.Data/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "UserRegistration.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

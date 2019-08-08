@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using UserRegistration.Domain.Entities;
+using UserRegistration.Data.Entities;
 
 namespace UserRegistration.Data.Maps
 {

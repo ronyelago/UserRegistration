@@ -16,7 +16,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\UserRegistration.Data\UserRegistration.Data.csproj" />
-    <ProjectReference Include="..\UserRegistration.Domain\UserRegistration.Domain.csproj" />
     <ProjectReference Include="..\UserRegistration.Repository\UserRegistration.Repository.csproj" />
   </ItemGroup>
 

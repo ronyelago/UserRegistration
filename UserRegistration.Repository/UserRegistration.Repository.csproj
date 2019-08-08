@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\UserRegistration.Data\UserRegistration.Data.csproj" />
-    <ProjectReference Include="..\UserRegistration.Domain\UserRegistration.Domain.csproj" />
   </ItemGroup>
 
 </Project>

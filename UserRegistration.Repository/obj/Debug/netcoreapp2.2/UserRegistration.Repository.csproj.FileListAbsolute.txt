@@ -10,5 +10,3 @@ C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Repository\obj\De
 C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Repository\obj\Debug\netcoreapp2.2\UserRegistration.Repository.csproj.CopyComplete
 C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Repository\obj\Debug\netcoreapp2.2\UserRegistration.Repository.dll
 C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Repository\obj\Debug\netcoreapp2.2\UserRegistration.Repository.pdb
-C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Repository\bin\Debug\netcoreapp2.2\UserRegistration.Domain.dll
-C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Repository\bin\Debug\netcoreapp2.2\UserRegistration.Domain.pdb

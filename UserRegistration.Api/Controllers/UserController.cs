@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System;
 using UserRegistration.Api.ViewModels;
-using UserRegistration.Domain.Entities;
+using UserRegistration.Data.Entities;
 using UserRegistration.Repository;
 
 namespace UserRegistration.Api.Controllers
@@ -25,20 +25,15 @@ namespace UserRegistration.Api.Controllers
         {
             var user = mapper.Map<User>(userViewModel);
 
-            if (user.Valid)
+            try
             {
-                try
-                {
-                    userRepository.Add(user);
-                    return Created(string.Empty, userViewModel);
-                }
-                catch (Exception ex)
-                {
-                    return StatusCode(500, (ex.Message, InnerException: ex.InnerException?.Message));
-                }
+                userRepository.Add(user);
+                return Created(string.Empty, userViewModel);
             }
-
-            return BadRequest(user);
+            catch (Exception ex)
+            {
+                return StatusCode(500, (ex.Message, InnerException: ex.InnerException?.Message));
+            }
         }
 
         [HttpGet("{id}")]

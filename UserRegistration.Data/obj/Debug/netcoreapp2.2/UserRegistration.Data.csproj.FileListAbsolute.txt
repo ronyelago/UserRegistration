@@ -6,7 +6,4 @@ C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Data\obj\Debug\ne
 C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Data\bin\Debug\netcoreapp2.2\UserRegistration.Data.pdb
 C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Data\obj\Debug\netcoreapp2.2\UserRegistration.Data.dll
 C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Data\obj\Debug\netcoreapp2.2\UserRegistration.Data.pdb
-C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Data\bin\Debug\netcoreapp2.2\UserRegistration.Domain.dll
-C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Data\bin\Debug\netcoreapp2.2\UserRegistration.Domain.pdb
 C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Data\obj\Debug\netcoreapp2.2\UserRegistration.Data.csprojAssemblyReference.cache
-C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Data\obj\Debug\netcoreapp2.2\UserRegistration.Data.csproj.CopyComplete

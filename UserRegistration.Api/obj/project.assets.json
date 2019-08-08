@@ -4775,6 +4775,19 @@
         "runtime": {
           "bin/placeholder/UserRegistration.Repository.dll": {}
         }
+      },
+      "UserRegistration.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "UserRegistration.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UserRegistration.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserRegistration.Service.dll": {}
+        }
       }
     }
   },
@@ -13026,6 +13039,11 @@
       "type": "project",
       "path": "../UserRegistration.Repository/UserRegistration.Repository.csproj",
       "msbuildProject": "../UserRegistration.Repository/UserRegistration.Repository.csproj"
+    },
+    "UserRegistration.Service/1.0.0": {
+      "type": "project",
+      "path": "../UserRegistration.Service/UserRegistration.Service.csproj",
+      "msbuildProject": "../UserRegistration.Service/UserRegistration.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -13035,7 +13053,8 @@
       "Microsoft.NETCore.App >= 2.2.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3",
       "UserRegistration.Data >= 1.0.0",
-      "UserRegistration.Repository >= 1.0.0"
+      "UserRegistration.Repository >= 1.0.0",
+      "UserRegistration.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -13076,6 +13095,9 @@
             },
             "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Repository\\UserRegistration.Repository.csproj": {
               "projectPath": "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Repository\\UserRegistration.Repository.csproj"
+            },
+            "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Service\\UserRegistration.Service.csproj": {
+              "projectPath": "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Service\\UserRegistration.Service.csproj"
             }
           }
         }

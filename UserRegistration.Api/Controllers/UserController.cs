@@ -4,6 +4,7 @@ using System;
 using UserRegistration.Api.ViewModels;
 using UserRegistration.Data.Entities;
 using UserRegistration.Repository;
+using UserRegistration.Service;
 
 namespace UserRegistration.Api.Controllers
 {
@@ -12,28 +13,37 @@ namespace UserRegistration.Api.Controllers
     public class UserController : ControllerBase
     {
         private readonly UserRepository userRepository;
+        private readonly UserService userService;
         private readonly IMapper mapper;
 
-        public UserController(UserRepository userRepository, IMapper mapper)
+        public UserController(UserRepository userRepository, UserService userService, IMapper mapper)
         {
             this.userRepository = userRepository;
+            this.userService = userService;
             this.mapper = mapper;
         }
 
         [HttpPost]
-        public ActionResult<UserViewModel> Post([FromBody] UserViewModel userViewModel)
+        public ActionResult<User> Post([FromBody] UserViewModel userViewModel)
         {
             var user = mapper.Map<User>(userViewModel);
 
-            try
+            if (userService.IsValid(user))
             {
-                userRepository.Add(user);
-                return Created(string.Empty, userViewModel);
+                try
+                {
+                    userRepository.Add(user);
+                    userRepository.SaveChanges();
+
+                    return Created(string.Empty, user);
+                }
+                catch (Exception ex)
+                {
+                    return StatusCode(500, (ex.Message, InnerException: ex.InnerException?.Message));
+                }
             }
-            catch (Exception ex)
-            {
-                return StatusCode(500, (ex.Message, InnerException: ex.InnerException?.Message));
-            }
+
+            return BadRequest(new { message = "Dados de usuário inválidos" });
         }
 
         [HttpGet("{id}")]

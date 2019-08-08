@@ -29,7 +29,8 @@
           "Microsoft.NETCore.App": "2.2.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.3",
           "UserRegistration.Data": "1.0.0",
-          "UserRegistration.Repository": "1.0.0"
+          "UserRegistration.Repository": "1.0.0",
+          "UserRegistration.Service": "1.0.0"
         },
         "runtime": {
           "UserRegistration.Api.dll": {}
@@ -594,6 +595,17 @@
         },
         "compile": {
           "UserRegistration.Repository.dll": {}
+        }
+      },
+      "UserRegistration.Service/1.0.0": {
+        "dependencies": {
+          "UserRegistration.Data": "1.0.0"
+        },
+        "runtime": {
+          "UserRegistration.Service.dll": {}
+        },
+        "compile": {
+          "UserRegistration.Service.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3926,6 +3938,11 @@
       "sha512": ""
     },
     "UserRegistration.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UserRegistration.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

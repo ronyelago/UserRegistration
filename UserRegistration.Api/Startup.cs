@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using UserRegistration.Repository;
 using AutoMapper;
+using UserRegistration.Service;
 
 namespace UserRegistration.Api
 {
@@ -21,6 +22,8 @@ namespace UserRegistration.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<UserRepository, UserRepository>();
+            services.AddTransient<UserService, UserService>();
+
             services.AddAutoMapper(typeof(Startup));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }

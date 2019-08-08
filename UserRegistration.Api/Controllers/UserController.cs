@@ -66,5 +66,25 @@ namespace UserRegistration.Api.Controllers
                 return StatusCode(500, (ex.Message, InnerException: ex.InnerException?.Message));
             }
         }
+
+        [HttpGet("GetByGender/{gender}")]
+        public ActionResult<List<UserViewModel>> GetByGender(string gender)
+        {
+            var users = userRepository.GetMany(user => user.Gender.ToLower().Contains(gender.ToLower()));
+
+            if (users is null)
+            {
+                return Ok(new { message = "Nenhum usuário encontrado" });
+            }
+
+            try
+            {
+                return Ok(mapper.Map<List<UserViewModel>>(users));
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, (ex.Message, InnerException: ex.InnerException?.Message));
+            }
+        }
     }
 }

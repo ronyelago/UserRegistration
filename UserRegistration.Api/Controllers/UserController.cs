@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Collections.Generic;
 using UserRegistration.Api.ViewModels;
 using UserRegistration.Data.Entities;
 using UserRegistration.Repository;
@@ -46,12 +47,14 @@ namespace UserRegistration.Api.Controllers
             return BadRequest(new { message = "Dados de usuário inválidos" });
         }
 
-        [HttpGet("{id}")]
-        public ActionResult<UserViewModel> Get(int id)
+        [HttpGet("{substringName}")]
+        public ActionResult<List<UserViewModel>> Get(string substringName)
         {
+            var users = userRepository.GetMany(x => x.Name.ToLower().Contains(substringName.ToLower()));
+
             try
             {
-                return Ok(mapper.Map<UserViewModel>(userRepository.GetById(id)));
+                return Ok(mapper.Map<List<UserViewModel>>(users));
             }
             catch (Exception ex)
             {

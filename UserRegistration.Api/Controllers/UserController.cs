@@ -47,10 +47,10 @@ namespace UserRegistration.Api.Controllers
             return BadRequest(new { message = "Dados de usuário inválidos" });
         }
 
-        [HttpGet("{substringName}")]
-        public ActionResult<List<UserViewModel>> Get(string substringName)
+        [HttpGet("{subName}")]
+        public ActionResult<List<UserViewModel>> Get(string subName)
         {
-            var users = userRepository.GetMany(x => x.Name.ToLower().Contains(substringName.ToLower()));
+            var users = userRepository.GetMany(x => x.Name.ToLower().Contains(subName.ToLower()));
 
             if (users is null)
             {

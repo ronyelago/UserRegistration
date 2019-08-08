@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using UserRegistration.Repository;
 using AutoMapper;
 using UserRegistration.Service;
+using Microsoft.OpenApi.Models;
 
 namespace UserRegistration.Api
 {
@@ -23,6 +24,13 @@ namespace UserRegistration.Api
         {
             services.AddTransient<UserRepository, UserRepository>();
             services.AddTransient<UserService, UserService>();
+
+            services.AddSwaggerGen();
+            // Configurando o serviço de documentação do Swagger
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "UserRegistration API", Version = "v1" });
+            });
 
             services.AddAutoMapper(typeof(Startup));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
@@ -42,6 +50,16 @@ namespace UserRegistration.Api
 
             app.UseHttpsRedirection();
             app.UseMvc();
+
+            app.UseStaticFiles();
+
+            // Ativando middlewares para uso do Swagger
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("./swagger/v1/swagger.json", "UserRegistration API V1");
+                c.RoutePrefix = string.Empty;
+            });
         }
     }
 }

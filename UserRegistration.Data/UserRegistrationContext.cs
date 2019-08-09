@@ -12,12 +12,12 @@ namespace UserRegistration.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            IConfigurationRoot configuration = new ConfigurationBuilder()
-                .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
-                .AddJsonFile("appsettings.Development.json")
-                .Build();
+            //IConfigurationRoot configuration = new ConfigurationBuilder()
+            //    .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
+            //    .AddJsonFile("appsettings.Development.json")
+            //    .Build();
 
-            optionsBuilder.UseSqlServer(configuration.GetConnectionString("UserRegistrationDatabase"));
+            //optionsBuilder.UseSqlServer(configuration.GetConnectionString("UserRegistrationDatabase"));
 
             optionsBuilder.UseSqlServer(@"Server=tcp:rdev.database.windows.net,1433;Initial Catalog=UserRegistration;
                                             Persist Security Info=False;User ID=ronye.rocha;Password=Spl@Engine#22;

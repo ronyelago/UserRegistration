@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="userregistrationtest" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration\.Api\\obj\\Debug\\netcoreapp2\.2\\win-x64\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

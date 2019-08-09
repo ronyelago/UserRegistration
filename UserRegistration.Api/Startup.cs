@@ -49,8 +49,6 @@ namespace UserRegistration.Api
             }
 
             app.UseHttpsRedirection();
-            app.UseMvc();
-
             app.UseStaticFiles();
 
             // Ativando middlewares para uso do Swagger
@@ -60,6 +58,8 @@ namespace UserRegistration.Api
                 c.SwaggerEndpoint("./swagger/v1/swagger.json", "UserRegistration API V1");
                 c.RoutePrefix = string.Empty;
             });
+
+            app.UseMvc();
         }
     }
 }

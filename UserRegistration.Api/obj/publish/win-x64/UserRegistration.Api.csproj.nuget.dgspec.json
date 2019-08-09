@@ -1,0 +1,300 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Api\\UserRegistration.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Api\\UserRegistration.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Api\\UserRegistration.Api.csproj",
+        "projectName": "UserRegistration.Api",
+        "projectPath": "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Api\\UserRegistration.Api.csproj",
+        "packagesPath": "C:\\Users\\rrocha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Api\\obj\\publish\\win-x64\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rrocha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Data\\UserRegistration.Data.csproj": {
+                "projectPath": "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Data\\UserRegistration.Data.csproj"
+              },
+              "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Repository\\UserRegistration.Repository.csproj": {
+                "projectPath": "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Repository\\UserRegistration.Repository.csproj"
+              },
+              "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Service\\UserRegistration.Service.csproj": {
+                "projectPath": "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Service\\UserRegistration.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.5, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.StaticFiles": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.5, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0-rc2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Data\\UserRegistration.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Data\\UserRegistration.Data.csproj",
+        "projectName": "UserRegistration.Data",
+        "projectPath": "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Data\\UserRegistration.Data.csproj",
+        "packagesPath": "C:\\Users\\rrocha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rrocha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Repository\\UserRegistration.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Repository\\UserRegistration.Repository.csproj",
+        "projectName": "UserRegistration.Repository",
+        "projectPath": "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Repository\\UserRegistration.Repository.csproj",
+        "packagesPath": "C:\\Users\\rrocha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rrocha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Data\\UserRegistration.Data.csproj": {
+                "projectPath": "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Data\\UserRegistration.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Service\\UserRegistration.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Service\\UserRegistration.Service.csproj",
+        "projectName": "UserRegistration.Service",
+        "projectPath": "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Service\\UserRegistration.Service.csproj",
+        "packagesPath": "C:\\Users\\rrocha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rrocha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Data\\UserRegistration.Data.csproj": {
+                "projectPath": "C:\\Users\\rrocha\\source\\repos\\UserRegistration\\UserRegistration.Data\\UserRegistration.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

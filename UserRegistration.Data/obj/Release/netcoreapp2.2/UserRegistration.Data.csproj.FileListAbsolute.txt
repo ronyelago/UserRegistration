@@ -1,0 +1,9 @@
+C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Data\bin\Release\netcoreapp2.2\UserRegistration.Data.deps.json
+C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Data\bin\Release\netcoreapp2.2\UserRegistration.Data.dll
+C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Data\bin\Release\netcoreapp2.2\UserRegistration.Data.pdb
+C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Data\obj\Release\netcoreapp2.2\UserRegistration.Data.csprojAssemblyReference.cache
+C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Data\obj\Release\netcoreapp2.2\UserRegistration.Data.csproj.CoreCompileInputs.cache
+C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Data\obj\Release\netcoreapp2.2\UserRegistration.Data.AssemblyInfoInputs.cache
+C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Data\obj\Release\netcoreapp2.2\UserRegistration.Data.AssemblyInfo.cs
+C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Data\obj\Release\netcoreapp2.2\UserRegistration.Data.dll
+C:\Users\rrocha\source\repos\UserRegistration\UserRegistration.Data\obj\Release\netcoreapp2.2\UserRegistration.Data.pdb
